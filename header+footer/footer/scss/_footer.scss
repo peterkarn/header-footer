@@ -1,0 +1,99 @@
+.footer {
+    padding: 20px 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #787878;
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__main {
+        display: flex;
+        padding-bottom: 3em;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 1.5em;
+    }
+
+    &__col {
+        flex: 1 1 auto;
+        margin: 0 20px;
+    }
+
+    &__col-wrapper {
+        display: flex;
+    }
+
+    &__contacts {
+        display: flex;
+        flex: 0 0 200px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    &__logo {
+        margin-bottom: 10px;
+    }
+
+    &__adress {
+        margin: 0 auto 1.8em;
+    }
+
+    &__tel {
+        display: block;
+        color: #27b5d4;
+        font-size: 15px;
+        margin-bottom: 0.5em;
+    }
+
+    &__fax {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    &__time {
+        margin-bottom: 30px;
+    }
+
+
+
+    &__title {
+        font-weight: bold;
+        color: #27b5d4;
+        font-size: 13px;
+        padding-bottom: 0.6em;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0.7em;
+    }
+
+    &__link {}
+
+    &__list {
+        li {
+            margin-bottom: 0.6em;
+        }
+
+    }
+
+    &__copy {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__terms {
+        color: #0d5582;
+        text-decoration: underline;
+        margin-left: 2em;
+    }
+
+    &__sitemap {
+        white-space: nowrap;
+    }
+}
+
+.container {}

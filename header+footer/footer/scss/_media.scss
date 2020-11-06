@@ -1,0 +1,34 @@
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .footer__col-wrapper {
+    flex-direction: column;
+  }
+
+  .footer__col {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  .footer__main {
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__contacts {
+    flex: 1 1 auto;
+  }
+
+  .footer__adress br {
+    display: none;
+  }
+
+  .footer__col-wrapper_first {
+    margin-left: -1em;
+  }
+}
