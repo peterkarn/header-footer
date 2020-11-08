@@ -5,30 +5,26 @@
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
 
-  // .header__inner
 
   &__inner {
     display: flex;
   }
 
-  // .header__logo
 
   &__logo {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex: 0 1 280px;
+    flex: 0 1 357px;
     margin-right: 20px;
     min-width: 150px;
   }
 
-  // .header__rows
 
   &__rows {
     width: 100%;
   }
 
-  // .header__row
 
   &__row {
     display: flex;
@@ -38,7 +34,7 @@
     // .header__row_top
 
     &_top {
-      padding: 1.5em;
+      padding: 16px;
       font-size: 11px;
     }
 
@@ -49,7 +45,6 @@
     }
   }
 
-  // .header__actions
 
   &__actions {
     display: flex;
@@ -58,12 +53,11 @@
 
   }
 
-  // .header__action
 
   &__action {
     display: flex;
-    flex: 0 0 2em;
-    margin-left: 2em;
+    flex: 0 0 22px;
+    margin-left: 22px;
 
     &:first-child {
       margin-left: 0;
@@ -75,11 +69,10 @@
 
   }
 
-  // .header__action_register
 
   &__action_register {
     position: relative;
-    padding-right: 2em;
+    padding-right: 22px;
 
     &:after {
       content: "";
@@ -87,17 +80,16 @@
       right: 0;
       top: 50%;
       width: 1px;
-      height: 0.8em;
+      height: 10px;
       background-color: #ffffff54;
       transform: translateY(-50%);
     }
   }
 
-  // .header__action_contact
 
   &__action_contact {
     position: relative;
-    padding: 0.3em 1.8em;
+    padding: 4px 20px;
     background-color: #86a621;
     white-space: nowrap;
     border-bottom: 1px solid #576b16;
@@ -121,7 +113,6 @@
 
   }
 
-  // .headeraction_social
 
   &__action_social {
     border-radius: 50%;
@@ -133,14 +124,12 @@
     }
   }
 
-  // .header__menu
 
   &__menu {
     margin-left: auto;
 
   }
 
-  // .header__search
 
   &__search {
     flex: 0 0 40px;
@@ -173,7 +162,7 @@
     }
   }
 
-  // .header__searchbox
+
   &__searchbox {
     position: absolute;
     right: 0;
@@ -200,7 +189,6 @@
 
   }
 
-  // .header__searchbox-inner
 
   &__searchbox-inner {
     position: relative;
@@ -226,13 +214,13 @@
       border: none;
       border-radius: 7px;
       height: 45px;
-      padding: 0.5em;
+      padding: 6px;
       font-size: 12px;
     }
 
   }
 
-  // .header__mobilemenu
+
   &__mobilemenu {
     position: absolute;
     width: 100%;
@@ -258,7 +246,6 @@
   background-color: rgba(255, 255, 255, 0.171);
 
 
-  // .menu__list
 
   &__list {
     display: flex;
@@ -275,12 +262,11 @@
 
   }
 
-  // .menu__link
 
   &__link {
     display: block;
     position: relative;
-    padding: 1em;
+    padding: 14px;
     transition: 0.5s;
     white-space: nowrap;
 
@@ -298,7 +284,7 @@
 
 .sub-menu {
 
-  // .sub-menu__list
+
 
   &__list {
     display: none;
@@ -311,7 +297,7 @@
 
     >li {
       background: rgba(0, 0, 0, 0.7);
-      padding: 0.5em 1em;
+      padding: 7px 14px;
       text-align: center;
 
       &:hover {
@@ -321,7 +307,7 @@
 
   }
 
-  // .sub-menu__link
+
 
   &__link {}
 }

@@ -192,8 +192,8 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 280px;
-          flex: 0 1 280px;
+      -ms-flex: 0 1 357px;
+          flex: 0 1 357px;
   margin-right: 20px;
   min-width: 150px;
 }
@@ -211,7 +211,7 @@ section {
 }
 
 .header__row_top {
-  padding: 1.5em;
+  padding: 16px;
   font-size: 11px;
 }
 
@@ -234,9 +234,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 2em;
-          flex: 0 0 2em;
-  margin-left: 2em;
+      -ms-flex: 0 0 22px;
+          flex: 0 0 22px;
+  margin-left: 22px;
 }
 
 .header__action:first-child {
@@ -249,7 +249,7 @@ section {
 
 .header__action_register {
   position: relative;
-  padding-right: 2em;
+  padding-right: 22px;
 }
 
 .header__action_register:after {
@@ -258,7 +258,7 @@ section {
   right: 0;
   top: 50%;
   width: 1px;
-  height: 0.8em;
+  height: 10px;
   background-color: #ffffff54;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -266,7 +266,7 @@ section {
 
 .header__action_contact {
   position: relative;
-  padding: 0.3em 1.8em;
+  padding: 4px 20px;
   background-color: #86a621;
   white-space: nowrap;
   border-bottom: 1px solid #576b16;
@@ -396,7 +396,7 @@ section {
   border: none;
   border-radius: 7px;
   height: 45px;
-  padding: 0.5em;
+  padding: 6px;
   font-size: 12px;
 }
 
@@ -444,7 +444,7 @@ section {
 .menu__link {
   display: block;
   position: relative;
-  padding: 1em;
+  padding: 14px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   white-space: nowrap;
@@ -471,7 +471,7 @@ section {
 
 .sub-menu__list > li {
   background: rgba(0, 0, 0, 0.7);
-  padding: 0.5em 1em;
+  padding: 7px 14px;
   text-align: center;
 }
 
