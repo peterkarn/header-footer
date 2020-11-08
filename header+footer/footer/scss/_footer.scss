@@ -1,103 +1,109 @@
 .footer {
-    padding: 20px 0;
-    font-family: Tahoma, sans-serif;
-    font-size: 12px;
-    color: #787878;
+  padding: 20px 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  color: #787878;
 
-    a {
-        &:hover {
-            text-decoration: underline;
-        }
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding-bottom: 36px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 18px;
+  }
+
+  &__contacts {
+    grid-column: 0/1;
+    grid-row: 1/5;
+    display: flex;
+    flex: 0 0 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  &__logo {
+    margin-bottom: 10px;
+  }
+
+  &__adress {
+    margin: 0 auto 21px;
+    max-width: 120px;
+    text-align: center;
+  }
+
+  &__tel {
+    display: block;
+    color: #27b5d4;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  &__fax {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  &__time {
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-weight: bold;
+    color: #27b5d4;
+    font-size: 13px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 9px;
+  }
+
+  &__link {}
+
+  &__list {
+    min-width: 160px;
+
+    li {
+      margin-bottom: 7px;
     }
 
-    &__main {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 2fr 2fr;
-        padding-bottom: 3em;
-        border-bottom: 2px solid #ccc;
-        margin-bottom: 1.5em;
-    }
+  }
 
-    &__contacts {
-        grid-column: 0/1;
-        grid-row: 1/5;
-        display: flex;
-        flex: 0 0 200px;
-        flex-direction: column;
-        align-items: center;
-    }
+  &__copy {
+    display: flex;
+    justify-content: space-between;
+
+  }
 
 
-    &__logo {
-        margin-bottom: 10px;
-    }
+  &__terms {
+    color: #0d5582;
+    text-decoration: underline;
+    margin-left: 24px;
+  }
 
-    &__adress {
-        margin: 0 auto 1.8em;
-    }
-
-    &__tel {
-        display: block;
-        color: #27b5d4;
-        font-size: 15px;
-        margin-bottom: 0.5em;
-    }
-
-    &__fax {
-        display: block;
-        margin-bottom: 0.5em;
-    }
-
-    &__time {
-        margin-bottom: 30px;
-    }
-
-    &__title {
-        font-weight: bold;
-        color: #27b5d4;
-        font-size: 13px;
-        padding-bottom: 0.6em;
-        border-bottom: 1px solid #ccc;
-        margin-bottom: 0.7em;
-    }
-
-    &__link {}
-
-    &__list {
-        li {
-            margin-bottom: 0.6em;
-        }
-
-    }
-
-    &__copy {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    &__terms {
-        color: #0d5582;
-        text-decoration: underline;
-        margin-left: 2em;
-    }
-
-    &__sitemap {
-        white-space: nowrap;
-    }
+  &__sitemap {
+    white-space: nowrap;
+  }
 }
 
 .column-wrapper {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  min-width: 250px;
 
-    &_1 {
-        grid-column: 2/3;
-    }
+  &_1 {
+    grid-column: 2/3;
+  }
 
-    &_2 {
-        grid-column: 3/4;
-    }
+  &_2 {
+    grid-column: 3/4;
+  }
 }
