@@ -148,7 +148,7 @@ img {
 }
 
 .footer__list {
-  min-width: 160px;
+  min-width: 130px;
 }
 
 .footer__list li {
@@ -216,6 +216,9 @@ img {
     -ms-grid-column-span: 3;
     grid-column: 1 / 4;
     grid-row: auto;
+  }
+  .footer__list {
+    min-width: 160px;
   }
   .column-wrapper_1 {
     -ms-grid-column: 1;
